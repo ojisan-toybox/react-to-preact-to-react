@@ -1,0 +1,10 @@
+{
+  "name": "preact-component",
+  "version": "1.0.0",
+  "main": "src/index.jsx",
+  "license": "MIT",
+  "dependencies": {
+    "preact": "^10.5.9",
+    "react-player": "^2.7.2"
+  }
+}

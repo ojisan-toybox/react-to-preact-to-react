@@ -11,13 +11,15 @@
   "license": "MIT",
   "scripts": {
     "preact-component": "yarn workspace preact-component",
-    "react-app": "yarn workspace react-app"
+    "react-app": "yarn workspace react-app",
+    "preact-app": "yarn workspace preact-app"
   },
   "devDependencies": {
     "@babel/core": "^7.12.10",
     "@babel/preset-env": "^7.12.11",
     "@babel/preset-react": "^7.12.10",
     "babel-loader": "^8.2.2",
+    "babel-preset-preact": "^2.0.0",
     "html-webpack-plugin": "^4.5.1",
     "webpack": "^5.12.0",
     "webpack-cli": "^4.3.1",

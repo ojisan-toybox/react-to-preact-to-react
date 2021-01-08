@@ -1,6 +1,6 @@
 import { Component } from "preact-component";
-import { render } from "react-dom";
-import { useState } from "react";
+import { h, render } from "preact";
+import { useState } from "preact/hooks";
 
 const App = () => {
   const [state, setState] = useState(Math.random());
@@ -20,4 +20,4 @@ const App = () => {
   );
 };
 
-render(<App></App>, document.getElementById("root"));
+render(<App></App>, document.body);
